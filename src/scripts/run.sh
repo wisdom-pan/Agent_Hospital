@@ -11,8 +11,7 @@
 #    --max_conversation_turn 10 # --max_workers 8 --parallel
 #
 # GPT-3.5-Turbo
-# echo "GPT-3.5-Turbo"
-export OPENAI_API_KEY="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"
+# echo "GPT-3.5-Turbo""
 export OPENAI_API_BASE=""
 python run.py --patient_database ./data/iiyi/patients.json \
     --doctor Agent.Doctor.GPT --doctor_openai_model_name gpt-3.5-turbo \
@@ -34,7 +33,6 @@ python run.py --patient_database ./data/iiyi/patients.json \
 
 # Qwen: qwen-max
 echo Qwen: qwen-max
-export DASHSCOPE_API_KEY="sk-3cb3087b007848bca128c2fdc804b8d1"
 python run.py --patient_database ./data/patients.json \
     --doctor Agent.Doctor.Qwen --doctor_qwen_model_name qwen-max \
     --patient Agent.Patient.GPT --patient_openai_model_name gpt-3.5-turbo \
@@ -43,7 +41,6 @@ python run.py --patient_database ./data/patients.json \
     --max_conversation_turn 10 # --max_workers 2 --parallel 
 
 # BaiChuan: baichuan2-13b-chat-v1 (13B)
-export DASHSCOPE_API_KEY="sk-106455eb8ce9d302b0a02cc809f92d90sk-106455eb8ce9d302b0a02cc809f92d90"
 python run.py --patient_database ./data/patients.json \
     --doctor Agent.Doctor.Qwen --doctor_qwen_model_name Baichuan3-Turbo-128k \
     --patient Agent.Patient.GPT --patient_openai_model_name gpt-3.5-turbo \
