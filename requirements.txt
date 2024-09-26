@@ -2,3 +2,6 @@ dashscope
 openai
 bootstrapped
 transformers
+gradio
+dashscope
+openai==1.2.0

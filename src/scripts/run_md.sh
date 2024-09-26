@@ -1,9 +1,9 @@
 # OpenAI
-export OPENAI_API_KEY=""
+export OPENAI_API_KEY="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"
 export OPENAI_API_BASE=""
 # Wenxin
-export WENXIN_API_KEY=""
-export WENXIN_SECRET_KEY=""
+export WENXIN_API_KEY="Pp2lhArp8ToVfq9llGl4Rs32"
+export WENXIN_SECRET_KEY="GGqRTKnhxj8cZlqG1PzHDRoL7Wiw03pM"
 # Qwen
 export DASHSCOPE_API_KEY=""
 export DASHSCOPE_API_KEY=""

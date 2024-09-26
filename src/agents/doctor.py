@@ -471,7 +471,7 @@ class QwenDoctor(Doctor):
         parser.add_argument("--doctor_qwen_api_key", type=str)
         parser.add_argument(
             "--doctor_qwen_model_name", type=str, 
-            choices=["qwen-max", "qwen-max-1201", "qwen-plus-gamma", "qwen-plus", "qwen-turbo", "baichuan2-7b-chat-v1", "baichuan2-13b-chat-v1"], default="qwen-max")
+            choices=["qwen-max", "qwen-max-1201", "qwen-plus-gamma", "qwen-plus", "qwen-turbo", "baichuan2-7b-chat-v1", "baichuan2-13b-chat-v1","Baichuan3-Turbo-128k"], default="qwen-max")
         parser.add_argument("--doctor_seed", type=int, default=1)
     
     def speak(self, content, patient_id, save_to_memory=True):
